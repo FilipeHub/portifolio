@@ -1,0 +1,142 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fafafa;
+  width: 85%;
+  margin-left: 15%;
+  box-sizing: border-box;
+  color: #212529;
+  font-family: 'Oswald', sans-serif;
+}
+#about .title {
+  font-weight: 500;
+  font-size: 52px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+#about .desc {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+#about .desc h2 {
+  margin-right: 14px;
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+#about .desc h2 span {
+  font-weight: 500;
+}
+#about .desc i {
+  font-size: 9px;
+}
+#about .desc .email {
+  margin-left: 14px;
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+#about .text {
+  font-size: 20px;
+  font-weight: 300;
+  width: 85%;
+  line-height: 1.5em;
+  margin-bottom: 100px;
+}
+
+#about .services {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+}
+
+#about .services .service {
+  width: 30%;
+  border-right: 1px solid #212529;
+  height: 200px;
+}
+#about .services > :last-child {
+  border-right: none;
+}
+#about .services .service .service-title {
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+#about .services .service .service-desc {
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+/* Large Screen */
+@media (min-width: 1750px) {
+  .container {
+    background-color: #fafafa;
+  }
+}
+
+/* Mobile */
+@media(max-width: 1024px) {
+  /* #about {
+    margin-left: 0;
+    padding-top: 80%;
+    width: 100vw;
+    padding-left: 12px;
+    overflow: hidden;
+
+  }
+  */
+  #about {
+    margin-left: 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+  }
+
+  #about .title {
+    font-size: 46px;
+  }
+  
+  #about .desc {
+    margin-bottom: 74px;
+  }
+  #about .desc h2 {
+    font-size: 20px;
+  }
+  #about .desc i {
+    font-size: 5px;
+  }
+  #about .desc .email {
+    font-size: 20px;
+  }
+  #about .text {
+    width: 90%;
+    font-size: 18px;
+  }
+  
+  #about .services {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    
+  }
+  
+  #about .services .service {
+    width: 100vw;
+    border: none;
+    height: initial;
+  }
+  #about .services .service .service-title {
+    margin-bottom: 18px;
+  }
+  
+  #about .services .service .service-desc {
+    padding-left: 16px;
+    margin-bottom: 30px;
+  }
+}
