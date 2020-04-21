@@ -1,5 +1,5 @@
 {
-  "name": "rafaelfreelancer",
+  "name": "portifolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RafaelGoulartB/rafaelfreelancer.git"
+    "url": "git+https://github.com/FilipeHub/portifolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RafaelGoulartB/rafaelfreelancer/issues"
+    "url": "https://github.com/FilipeHub/portifolio/issues"
   },
-  "homepage": "https://github.com/RafaelGoulartB/rafaelfreelancer#readme",
+  "homepage": "https://github.com/FilipeHub/portifolio#readme",
   "dependencies": {
     "font-awesome": "^4.7.0"
   }
