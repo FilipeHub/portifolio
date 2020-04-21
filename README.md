@@ -18,5 +18,10 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 Give a ⭐️ if this project helped you!
 
+## 📝 License
+
+Copyright © 2020 [Rafael Goulart](https://github.com/FilipeHub).<br />
+This project is [MIT](https://github.com/FilipeHub/portifolio/blob/master/LICENSE) licensed.
+
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
