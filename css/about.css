@@ -81,21 +81,13 @@
 
 /* Mobile */
 @media(max-width: 1024px) {
-  /* #about {
-    margin-left: 0;
-    padding-top: 80%;
-    width: 100vw;
-    padding-left: 12px;
-    overflow: hidden;
-
-  }
-  */
+  
   #about {
     margin-left: 0;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    min-height: 800px;
+    min-height: 900px;
   }
 
   #about .title {
